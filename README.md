@@ -1,49 +1,48 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #1 Basic Output (Total Marks 10)
+### Assignment #3b More Math (Total Marks 10)
 
 Objectives:
-* Create a repository and edit the files inside it
-* Make use of the print() function to generate output
-* Make use of escaped characters: \n \" \' to print line breaks or quotation marks
-
-This assignment will test the basic structure of a python program.  
-You will need to have proper structure and the recommended basic output.
-
-### 3 Tasks
-
-##### Task 1
-(2 points) Modify the existing assignment file called "assignment.py".  It should display the message "Hello World!" Note that the output is case sensitive. Make sure that it is an exact match
+* Use the input() command
+* Using math operations as appropriate
+* Use the math module if necessary
+* Use different options for displaying your output
 
 
-##### Task 2
-(2 points) **Create** a new assignment file called "assignment2.py".  It should display the following:
+### 2 Tasks
 
-Sample Output Task #2
-This is my second program.
-It uses "two commands" to display the output.
+##### Task 1 Percent Error
+Ask the user to input the following:
+* the expected number
+* the actual result
+Calculate the percent difference between the two results. Round your answer to 2 decimal places
 
-Note that you can't use the command print("It uses "two commands" to display the output.") because the Python3 interpreter sees the second double quotation is ending the first one.  In this case, we have two choices:
-  - Use a single quotation mark as the beginning and end of the output string.
-  - "Escape" the internal double quotation mark.  Using \" instead of " will tell the compiler that the double quote is for display, and is not functional
+```
+https://www.skillsyouneed.com/num/percent-change.html
 
-##### Task 3
-(2 points) Modify the assignment file called "assignment3.py".  We are going to make
-this program print on 2 lines even though it uses only 1 print statement. We will use
-the escape character \n to introduce a line break.
+Sample Output:
+Enter expected: 10
+Enter actual : 9
+The percent difference is -10.00%
 
-Expected output:
-This is the first sentence.
-This is the second sentence.
+Enter expected: 12
+Enter actual : 14
+The percent difference is 16.67%
+```
 
-#### Task 4
-(2 points) Modify the assignment called "assignment4.py".  We want it to only display the print statement.  The rest of the lines in the source code need to be commented out so that they do not affect the program running:
+##### Task 2 Compound Interest
+Ask the user to enter the following:
+* The principal (amount invested or borrowed)
+* The annual interest rate (expressed as a percent)
+* The number of compounding periods per year
+* The length of time for the investment
+Calculate the final amoutn as well as the amount of interest earned. Round your answer to 2 decimal places
 
-Expected output:
-Hello!
-
-#### Task 5
-(2 points)
-Create a file called "assignment5.py" in your project.  We are going to have your program display the clasic poem, "Ozymandias" by Percy Bysshe Shelly.
-Your program should display a title on one line, the author's name on the line below it and then a couple spaces before you display the poem.
-https://www.poetryfoundation.org/poems/46565/ozymandias
+```
+https://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php
+Enter the Princial: 2000
+Enter the annual interest rate as a percent: 4
+Enter the number of compounding periods: 4
+How long is the investment period in years: 3
+Your final amount is $2253.65
+You earned $253.65 interest
 
