@@ -11,7 +11,7 @@ https://www.skillsyouneed.com/num/percent-change.html
 Sample Output:
 Enter expected: 10
 Enter actual : 9
-The percent difference is -10.00%
+The percent difference is -10.0%
 
 Enter expected: 12
 Enter actual : 14
