@@ -46,3 +46,38 @@ How long is the investment period in years: 3
 Your final amount is $2253.65
 You earned $253.65 interest
 
+##### Task 3 Heron's Formula:
+write a program to calculate the area of a triangle provided the 3 sides are known:
+sample:
+```
+I will use Heron's formula to find the area of a triangle provided that all 3 sides are known.
+You will need to enter the lengths of the 3 sides: a, b and c
+Enter the length of side a: 3
+Enter the length of side b: 5
+Enter the length of side c: 7
+Your half perimeter is 7.5
+The area of your triangle is 6.495
+
+I will use Heron's formula to find the area of a triangle provided that all 3 sides are known.
+You will need to enter the lengths of the 3 sides: a, b and c
+Enter the length of side a: 5
+Enter the length of side b: 12
+Enter the length of side c: 12
+Your half perimeter is 14.5
+The area of your triangle is 29.342
+```
+
+##### Task 4 Convert centimeters to feet and inches
+Write a program to ask the user to input a length in centimeters. Convert this into feet and inches.  Round your inches to the nearest whole inch.
+You will likely need to make use of at least one of the following:
+* % modulus
+* math.floor()
+
+Sample output:
+```
+Enter a length in centimeters: 172
+172 centimeters is 5 feet and 8 inches
+
+Enter a length in centimeters: 32
+32 centimeters is 1 feet and 1 inches
+```
